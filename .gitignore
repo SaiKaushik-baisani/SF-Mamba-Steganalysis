@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+
+# Local datasets
+data/
+
+# Model weights and checkpoints
+checkpoints/
+runs/
+results/
+*.pt
+*.pth
+*.ckpt
+
+# Experiment logs
+*.log
+*.jsonl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
